@@ -1,10 +1,8 @@
 <p align="center">
- <img alt="GitHub language count" src="https://img.shields.io/badge/Linguagens-3-%237519C1">
+ <img alt="GitHub language count" src="https://img.shields.io/badge/Linguagens-4-%237519C1">
    <a href="https://github.com/ChaiCaroline">
     <img alt="Feito pela Chaiene Caroline" src="https://img.shields.io/badge/feito%20por-Chaiene-%237519C1">
     </a>
-   
-  
   </p>
 
 <h1 align='center'>Projeto DinDin</h1>

@@ -1,0 +1,107 @@
+.containerSignin {
+    display: flex;
+    flex-direction: column;
+}
+
+.logoSingin {
+    display: flex;
+    justify-content: space-evenly;
+
+    padding-top: 40px;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    width: 100%;
+    padding-top: 5%;
+}
+
+.logo {
+    width: 614px;
+}
+
+.logosecundary {
+    width: 513px;
+}
+
+.login form {
+    display: flex;
+
+    height: 535px;
+    width: 513px;
+}
+
+.textFinance {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-direction: column;
+
+    width: 614px;
+}
+
+.login div h1:first-child span {
+    color: #7978D9
+}
+
+.button-register {
+    width: 284px;
+    margin-top: 43px;
+}
+
+.login div:last-child {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 100%;
+    padding: 0px 32px;
+
+    background-color: white;
+}
+
+.login div:last-child button {
+    width: 449px;
+}
+
+.login h1 {
+    padding-bottom: 33px;
+    font-size: 52px;
+    line-height: 62px;
+    color: white;
+}
+
+.textController {
+    font-size: 28px;
+    line-height: 33px;
+    color: #FFFFFF;
+}
+
+.login h2 {
+    font-size: 28px;
+    line-height: 33px;
+
+    color: #7978D9;
+}
+
+.login input {
+    margin: 8px 0 31px 0;
+    padding-left: 10px;
+    height: 63px;
+    width: 449px;
+
+    background: #FFFFFF;
+    border: 1px solid #555555;
+    border-radius: 5px;
+}
+
+.error {
+    border: 1px solid red !important
+}
+
+.fault {
+    color: rgb(230, 51, 51);
+}

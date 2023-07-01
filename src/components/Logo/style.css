@@ -1,0 +1,13 @@
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.textLogo {
+    margin-left: 8px;
+
+    font-size: 36px;
+    line-height: 43px;
+
+    color: #FFFFFF;
+}

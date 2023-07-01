@@ -1,0 +1,59 @@
+.modal-delete {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    margin-top: 35px;
+    margin-right: 42px;
+    position: absolute;
+
+    width: 111px;
+    height: 46px;
+
+    border-radius: 4px;
+    background: #E4F2FD;
+}
+
+.text h4 {
+    font-size: 10px;
+}
+
+.modal-delete img {
+    position: relative;
+    left: 50px;
+    bottom: 35px;
+
+    width: 17px;
+    height: 13px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    height: 50%;
+    padding: 0 15px;
+
+    margin-top: 2px;
+}
+
+.buttons button {
+    height: 100%;
+
+    width: 37px;
+    height: 15px;
+    border-radius: 4px;
+    font-size: 9px;
+}
+
+.button-yes {
+    background: #3A9FF1;
+}
+
+.button-no {
+    margin-left: 7px;
+    background: #FF576B;
+}
+
+.visibility {
+    visibility: hidden
+}

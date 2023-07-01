@@ -1,0 +1,65 @@
+.container-content {
+    flex-grow: 1;
+}
+
+table {
+    display: flex;
+    flex-direction: column;
+}
+
+table h4 {
+    font-size: 14px;
+    line-height: 17px;
+}
+
+thead {
+    background: #FAFAFA;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+tr {
+    display: flex;
+    padding: 20px 0;
+}
+
+th,
+td {
+    width: 100%;
+    text-align: center;
+}
+
+
+tbody tr {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.date {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.date img {
+    height: 7px;
+    margin-left: 5px;
+}
+
+.ative img {
+    transform: scaleY(-1)
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+}
+
+.icons img:first-child {
+    margin-right: 25px;
+}
+
+.visibility {
+    visibility: hidden
+}

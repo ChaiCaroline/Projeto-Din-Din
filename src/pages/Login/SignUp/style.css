@@ -1,0 +1,87 @@
+.container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modal-signup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+
+  width: 513px;
+  height: 781px;
+
+  background-color: white;
+}
+
+.modal-signup h2 {
+  margin: 60px 0 42px 0;
+
+  font-size: 28px;
+  line-height: 33px;
+
+  color: #7978D9;
+}
+
+.formSubmit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.formSubmit label {
+  align-self: flex-start;
+  padding-bottom: 8px;
+}
+
+.formSubmit input {
+  width: 449px;
+  height: 63px;
+
+  border: 1px solid #555555;
+  border-radius: 5px;
+
+  margin-bottom: 31px;
+  padding-left: 10px;
+}
+
+.modal-signup button {
+  width: 449px;
+}
+
+.backHome {
+  margin: 8px 0 57px 0;
+
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #7B61FF;
+}
+
+.error-register,
+.successpan {
+  align-self: start;
+
+  position: relative;
+  top: -15px;
+}
+
+.error-register {
+  color: rgb(230, 51, 51);
+}
+
+.successpan {
+  color: rgb(31, 192, 31)
+}
+
+.erro {
+  border: 1px solid red !important
+}
+
+.success {
+  border: 1px solid rgb(31, 192, 31);
+}

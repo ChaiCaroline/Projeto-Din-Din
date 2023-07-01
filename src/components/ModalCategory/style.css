@@ -1,0 +1,105 @@
+.container-filter {
+    background-color: #FAFAFA;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+
+    flex-grow: 1;
+
+    position: relative;
+    width: 100%;
+
+    margin-top: 26px;
+    padding: 32px 36px;
+}
+
+.container-filter h2 {
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #B9B9B9;
+}
+
+.container-filter-category {
+    display: grid;
+    grid-template-columns: repeat(7, 100px);
+    grid-gap: 16px;
+
+    margin-top: 20px;
+}
+
+.container-filter-category button {
+    padding: 0 10px;
+    justify-content: space-between;
+    height: 30px;
+
+    font-size: 10px;
+    line-height: 12px;
+
+    color: black;
+
+    background: #FAFAFA;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-image: url(../../assets/+.svg);
+    background-size: 8px;
+    background-repeat: no-repeat;
+    background-position: 80px;
+}
+
+.container-filter-category button:hover {
+    background-color: #7978D9;
+    color: white;
+    background-image: url(../../assets/select.svg);
+    background-size: 8px;
+    background-repeat: no-repeat;
+    background-position: 80px;
+}
+
+.clic {
+    background-color: #7978D9 !important;
+    color: white !important;
+    background-image: url(../../assets/select.svg) !important;
+    background-size: 8px !important;
+    background-repeat: no-repeat !important;
+    background-position: 80px !important;
+}
+
+.container-filter-category div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 80px;
+    height: 20px;
+
+    background: #FAFAFA;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.button-filter {
+    display: flex;
+    padding-top: 18px;
+}
+
+.button-filter button {
+    height: 30px;
+    padding: 8px;
+    margin-right: 18px;
+
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+
+    background-color: white;
+    color: black;
+}
+
+.button-filter button:hover {
+    background-color: #7978D9;
+    color: white;
+}
+
+.button-filter h4 {
+    font-size: 12px;
+    line-height: 14px;
+}

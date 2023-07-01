@@ -1,0 +1,175 @@
+/* Header com logo e informações do profile e sair*/
+.main {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(90.23deg, #05EDE3 0.02%, #645FFB 99.63%);
+
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+
+    height: 116px;
+    padding: 0 6%;
+}
+
+.logout-profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile {
+    background-image: url('../../assets/Profile.svg');
+    background-repeat: no-repeat;
+
+    width: 56px;
+    height: 56px;
+}
+
+.name {
+    width: max-content;
+    align-items: center;
+    justify-content: center;
+}
+
+.name h1 {
+    padding: 0 16px 0 7.09px;
+
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.logout {
+    background-image: url('../../assets/Vector.svg');
+    background-repeat: no-repeat;
+
+    width: 22px;
+    height: 27.5px;
+}
+
+/* Body */
+.body {
+    display: flex;
+    justify-content: space-between;
+
+    height: 100%;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    background-color: white;
+
+    padding: 3% 6%;
+}
+
+.container-main {
+    width: 100%;
+}
+
+.filter2 {
+    position: relative;
+
+    padding: 0 14px;
+    height: 30px;
+
+    background: #FAFAFA;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.filter2 h4 {
+    margin-left: 4px;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: black;
+}
+
+/* main*/
+.container {
+    display: flex;
+
+    margin-top: 26px;
+}
+
+
+/* Parte do Resume Extrato*/
+.container-right {
+    margin-left: 40px;
+}
+
+.container-resume {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    padding: 26px 33px 0 33px;
+
+    width: 236px;
+    height: 196px;
+
+    background: #FAFAFA;
+    box-shadow: 0px 2px 11px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.container-resume div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+}
+
+.container-resume h1 {
+    font-size: 18px;
+    line-height: 21px;
+    color: #2F2F2F;
+}
+
+.container-resume h2 {
+    font-size: 13px;
+    line-height: 15px;
+    color: #2F2F2F;
+}
+
+.debit {
+    padding-top: 23px;
+    padding-bottom: 12px;
+}
+
+.debit h2:last-child {
+    color: #645FFB
+}
+
+.credit {
+    padding-bottom: 19px;
+}
+
+.credit h2:last-child {
+    color: #FA8C10
+}
+
+.balance {
+    padding-top: 16px;
+
+    border-top: 1px solid #EAEAEA;
+}
+
+.balance h2:last-child {
+    color: #3A9FF1
+}
+
+.newResgister {
+    width: 236px;
+    border-radius: 5px;
+
+    margin-top: 16px;
+}
+
+.newResgister h1 {
+    font-size: 14px;
+    line-height: 17px;
+}
